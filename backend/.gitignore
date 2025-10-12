@@ -1,0 +1,47 @@
+# =============================
+# Java / Spring Boot
+# =============================
+/target/
+/*.iml
+/.idea/
+/*.log
+*.class
+*.jar
+*.war
+*.db
+*.h2.db
+*.h2.mv.db
+*.h2.trace.db
+
+# Maven
+/.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+
+# IntelliJ
+/out/
+/*.ipr
+/*.iws
+
+# =============================
+# Python / Flask
+# =============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.venv/
+instance/
+*.sqlite
+*.db
+*.log
+
+# VSCode
+.vscode/
